@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Fundamentals
 {
-    class Program
+   public class Product
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello world!");
-        }
+        public string Name { get; set; }
+        public float Price { get; set; }
+
+        public int Id { get; set; }
     }
 }
